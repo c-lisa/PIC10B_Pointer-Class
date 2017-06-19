@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ColorPoint2D.cpp" />
-    <ClCompile Include="hw5.cpp" />
+    <ClCompile Include="hw7.cpp" />
     <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="Points.cpp" />
     <ClCompile Include="WeightedPoint2D.cpp" />

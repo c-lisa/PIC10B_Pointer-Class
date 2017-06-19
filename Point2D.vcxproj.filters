@@ -41,7 +41,7 @@
     <ClCompile Include="Points.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hw5.cpp">
+    <ClCompile Include="hw7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

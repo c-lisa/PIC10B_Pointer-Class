@@ -1,7 +1,7 @@
 /** @file Points.cpp
 @brief Contains the class definitions for the Points class.
 @author Lisa Chiang
-@date February 9, 2015
+@date February 24, 2015
 
 The definitions for the destructor, push_back, and get_points functions for Point2D are here.
 */
@@ -10,6 +10,7 @@ The definitions for the destructor, push_back, and get_points functions for Poin
 #include <vector>
 #include "Point2D.h"
 #include "Points.h"
+#include <algorithm>
 
 /**@brief Points Destructor
 
@@ -54,9 +55,10 @@ Allows user to access private vector of pointers.
 @param No parameters. 
 @return Returns a vector of pointers.
 */
-std::vector<Point2D*> Points::get_points()
+std::vector<Point2D*>& Points::get_points()
 {
 	return points;
 }
+
 
 
